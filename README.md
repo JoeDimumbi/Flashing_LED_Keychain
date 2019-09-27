@@ -29,4 +29,4 @@ Keychain blinking LED project based on Microchip PIC16LF18326
 Used 1 PIC16LF18326 for controling the LEDs patterns. There are 1 Button allowing the circuit to be powered from the battery. 
 When the button is pressed, the LEDs go on from the outside ring to the inside one.
 
-![Keychain_1](https://github.com/Lumkani/Lumkani_Keychain/blob/master/Lumkani_Keychain_Images/Keychain_1.gif)
+![Keychain_1](https://github.com/Lumkani/Lumkani_Keychain/blob/master/Lumkani_Keychain_Images/Keychain_1.gif)![Keychain_2](https://github.com/Lumkani/Lumkani_Keychain/blob/master/Lumkani_Keychain_Images/Keychain_2.gif)
