@@ -1,0 +1,11 @@
+Reference, Quantity, Value,Description,MPN,Price,Total Price,Part Page
+BT1 ,1,Battery_Cell,Battery:BatteryHolder_Keystone_3034_1x20mm,3034,R 4.53,R 4.53,https://www.digikey.co.za/product-detail/en/keystone-electronics/3034/36-3034-ND/4499289
+Battery,1,3V Lithium,Renata CR2032 MFR,CR2032 MFR,R 2.65,R 2.65,
+C1 C2 ,2,0.1u,Capacitor_SMD:C_0603_1608Metric,CL10B104KB8NNNC ,R 0.07,R 0.15,https://www.digikey.co.za/products/en?keywords=%20CL10B104KB8NNNC%20
+C3 ,1,0.001u,Capacitor_SMD:C_0603_1608Metric,0603B102K500CT ,R 0.06,R 0.06,https://www.digikey.co.za/products/en?keywords=%200603B102K500CT
+D18  ,1,LED_Small,LED_SMD:LED_0603_1608Metric_LED RED CLEAR SMD ,LTST-C191KRKT ,R 3.93,R 3.93,https://www.digikey.co.za/products/en?keywords=LTST-C191KRKT%20
+D1 D2 D3 D4 D5 D6 D7,17,LED_Small,LED_SMD:LED_0603_1608Metric_LED GREEN CLEAR,LTST-C191KGKT ,R 3.93,R 66.81,https://www.digikey.co.za/products/en?keywords=%20LTST-C191KGKT%20
+R1 R10 R11 R12 R13 R14 R15 R16 R17 R18 R19 R2 R20 R3 R4 R5 R6 R7 R8 R9 ,18,1k,Resistor_SMD:R_0603_1608Metric,CRG0402J1K0,R 0.02,R 0.28,
+SW1 ,1,SW_Push,Switch-TACTILE_smd_4.5X4.5mm_ TL3315NF160Q ,TL3315NF160Q ,R 3.09,R 3.09,https://www.digikey.co.za/products/en?keywords=%20TL3315NF160Q%20
+U1 ,1,PIC16LF18326T-I_SL,PIC16LF18326T-I_SL:SOIC127P600X175-14N,PIC16LF18326-I/SL ,R 15.57,R 15.57,https://www.digikey.co.za/product-detail/en/microchip-technology/PIC16LF18326-I-SL/PIC16LF18326-I-SL-ND/6098404
+,,,,,,R 97.07,

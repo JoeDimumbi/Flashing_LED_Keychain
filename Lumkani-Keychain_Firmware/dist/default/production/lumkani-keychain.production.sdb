@@ -1,0 +1,750 @@
+[p LITE_MODE AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PIC14E ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16LF18326 ]
+[d frameptr 6 ]
+"173 /home/lumkani/Desktop/Keychain/Keychain_Project/Lumkani-Keychain_Firmware/pinmap.h
+[e E6619 . `uc
+ADCON0_CHS_FVR 63
+ADCON0_CHS_DAC1 62
+ADCON0_CHS_TEMP 61
+ADCON0_CHS_VSS 60
+ADCON0_CHS_ANC7 23
+ADCON0_CHS_ANC6 22
+ADCON0_CHS_ANC5 21
+ADCON0_CHS_ANC4 20
+ADCON0_CHS_ANC3 19
+ADCON0_CHS_ANC2 18
+ADCON0_CHS_ANC1 17
+ADCON0_CHS_ANC0 16
+ADCON0_CHS_ANB7 15
+ADCON0_CHS_ANB6 14
+ADCON0_CHS_ANB5 13
+ADCON0_CHS_ANB4 12
+ADCON0_CHS_ANA5 5
+ADCON0_CHS_ANA4 4
+ADCON0_CHS_ANA2 2
+ADCON0_CHS_ANA1 1
+ADCON0_CHS_ANA0 0
+]
+"64 /home/lumkani/Desktop/Keychain/Keychain_Project/Lumkani-Keychain_Firmware/hardware.h
+[e E6696 . `uc
+CLK_SOURCE_HFINTOSC_2PLL 0
+CLK_SOURCE_EXTOSC_4PLL 1
+CLK_SOURCE_SOSC 3
+CLK_SOURCE_LFINTOSC 4
+CLK_SOURCE_HFINTOSC 6
+CLK_SOURCE_EXTOSC 7
+]
+[e E6704 . `uc
+CLK_DIV_1 0
+CLK_DIV_2 1
+CLK_DIV_4 2
+CLK_DIV_8 3
+CLK_DIV_16 4
+CLK_DIV_32 5
+CLK_DIV_64 6
+CLK_DIV_128 7
+CLK_DIV_256 8
+CLK_DIV_512 9
+]
+"31 /home/lumkani/Desktop/Keychain/Keychain_Project/Lumkani-Keychain_Firmware/main.c
+[e E6667 . `uc
+LOW 0
+HIGH 1
+FALSE 0
+TRUE 1
+]
+"33
+[e E6835 . `uc
+RING1 1
+RING2 2
+RING3 3
+RING4 4
+LED_ALL 5
+]
+"173 /home/lumkani/Desktop/Keychain/Keychain_Project/Lumkani-Keychain_Firmware/pinmap.h
+[e E6330 . `uc
+ADCON0_CHS_FVR 63
+ADCON0_CHS_DAC1 62
+ADCON0_CHS_TEMP 61
+ADCON0_CHS_VSS 60
+ADCON0_CHS_ANC7 23
+ADCON0_CHS_ANC6 22
+ADCON0_CHS_ANC5 21
+ADCON0_CHS_ANC4 20
+ADCON0_CHS_ANC3 19
+ADCON0_CHS_ANC2 18
+ADCON0_CHS_ANC1 17
+ADCON0_CHS_ANC0 16
+ADCON0_CHS_ANB7 15
+ADCON0_CHS_ANB6 14
+ADCON0_CHS_ANB5 13
+ADCON0_CHS_ANB4 12
+ADCON0_CHS_ANA5 5
+ADCON0_CHS_ANA4 4
+ADCON0_CHS_ANA2 2
+ADCON0_CHS_ANA1 1
+ADCON0_CHS_ANA0 0
+]
+"64 /home/lumkani/Desktop/Keychain/Keychain_Project/Lumkani-Keychain_Firmware/hardware.h
+[e E6378 . `uc
+CLK_SOURCE_HFINTOSC_2PLL 0
+CLK_SOURCE_EXTOSC_4PLL 1
+CLK_SOURCE_SOSC 3
+CLK_SOURCE_LFINTOSC 4
+CLK_SOURCE_HFINTOSC 6
+CLK_SOURCE_EXTOSC 7
+]
+[e E6386 . `uc
+CLK_DIV_1 0
+CLK_DIV_2 1
+CLK_DIV_4 2
+CLK_DIV_8 3
+CLK_DIV_16 4
+CLK_DIV_32 5
+CLK_DIV_64 6
+CLK_DIV_128 7
+CLK_DIV_256 8
+CLK_DIV_512 9
+]
+"51 /home/lumkani/Desktop/Keychain/Keychain_Project/Lumkani-Keychain_Firmware/hardware.c
+[e E24 . `uc
+LOW 0
+HIGH 1
+FALSE 0
+TRUE 1
+]
+"96
+[e E6418 . `uc
+DIGITAL_OUTPUT_PUSH_PULL 0
+DIGITAL_OUTPUT_OPEN_DRAIN 1
+DIGITAL_INPUT_NO_PULL 2
+DIGITAL_INPUT_PULL_UP 3
+DIGITAL_INPUT_OPEN_DRAIN 4
+ANALOG_INPUT 5
+]
+"285
+[e E6603 . `uc
+WDT_TIMEOUT_PERIOD_1_MS 0
+WDT_TIMEOUT_PERIOD_2_MS 1
+WDT_TIMEOUT_PERIOD_4_MS 2
+WDT_TIMEOUT_PERIOD_8_MS 3
+WDT_TIMEOUT_PERIOD_16_MS 4
+WDT_TIMEOUT_PERIOD_32_MS 5
+WDT_TIMEOUT_PERIOD_64_MS 6
+WDT_TIMEOUT_PERIOD_128_MS 7
+WDT_TIMEOUT_PERIOD_256_MS 8
+WDT_TIMEOUT_PERIOD_512_MS 9
+WDT_TIMEOUT_PERIOD_1_S 10
+WDT_TIMEOUT_PERIOD_2_S 11
+WDT_TIMEOUT_PERIOD_4_S 12
+WDT_TIMEOUT_PERIOD_8_S 13
+WDT_TIMEOUT_PERIOD_16_S 14
+WDT_TIMEOUT_PERIOD_32_S 15
+WDT_TIMEOUT_PERIOD_64_S 16
+WDT_TIMEOUT_PERIOD_128_S 17
+WDT_TIMEOUT_PERIOD_256_S 18
+]
+"395
+[e E6635 . `uc
+ADC_FVR_BUFFER_GAIN_OFF 0
+ADC_FVR_BUFFER_GAIN_1 1
+ADC_FVR_BUFFER_GAIN_2 2
+ADC_FVR_BUFFER_GAIN_4 3
+]
+"397
+[e E6641 . `uc
+ADC_AUTOCONVERSION_TRIGGER_TMR5 17
+ADC_AUTOCONVERSION_TRIGGER_TMR3 16
+ADC_AUTOCONVERSION_TRIGGER_OFF 0
+ADC_AUTOCONVERSION_TRIGGER_TMR4 1
+ADC_AUTOCONVERSION_TRIGGER_TMR6 2
+ADC_AUTOCONVERSION_TRIGGER_TMR0 3
+ADC_AUTOCONVERSION_TRIGGER_TMR1 4
+ADC_AUTOCONVERSION_TRIGGER_TMR2 5
+ADC_AUTOCONVERSION_TRIGGER_COMPARITOR_1 6
+ADC_AUTOCONVERSION_TRIGGER_COMPARITOR_2 7
+ADC_AUTOCONVERSION_TRIGGER_CLC1 8
+ADC_AUTOCONVERSION_TRIGGER_CLC2 9
+ADC_AUTOCONVERSION_TRIGGER_CLC3 10
+ADC_AUTOCONVERSION_TRIGGER_CLC4 11
+ADC_AUTOCONVERSION_TRIGGER_CCP1 12
+ADC_AUTOCONVERSION_TRIGGER_CCP2 13
+ADC_AUTOCONVERSION_TRIGGER_CCP3 14
+ADC_AUTOCONVERSION_TRIGGER_CCP4 15
+]
+"398
+[e E6661 . `uc
+ADC_POSITIVE_REFERENCE_VDD 0
+ADC_POSITIVE_REFERENCE_EXT_VREF 2
+ADC_POSITIVE_REFERENCE_FVR 3
+]
+"399
+[e E6666 . `uc
+ADC_NEGATIVE_REFERENCE_AVSS 0
+ADC_NEGATIVE_REFERENCE_EXT_VREF 1
+]
+"400
+[e E6670 . `uc
+ADC_RESULT_FORMAT_RIGHT_JUSTIFIED 1
+ADC_RESULT_FORMAT_LEFT_JUSTIFIED 0
+]
+"401
+[e E6674 . `uc
+ADC_CONVERSION_CLOCK_FOSC_DIV_2 0
+ADC_CONVERSION_CLOCK_FOSC_DIV_4 4
+ADC_CONVERSION_CLOCK_FOSC_DIV_8 1
+ADC_CONVERSION_CLOCK_FOSC_DIV_16 5
+ADC_CONVERSION_CLOCK_FOSC_DIV_32 2
+ADC_CONVERSION_CLOCK_FOSC_DIV_64 6
+ADC_CONVERSION_CLOCK_ADCRC 7
+]
+"582
+[e E6719 . `uc
+TMR0_OPERATING_MODE_16_BIT 1
+TMR0_OPERATING_MODE_8_BIT 0
+]
+"583
+[e E6723 . `uc
+TMR0_POSTSCALER_1 0
+TMR0_POSTSCALER_2 1
+TMR0_POSTSCALER_3 2
+TMR0_POSTSCALER_4 3
+TMR0_POSTSCALER_5 4
+TMR0_POSTSCALER_6 5
+TMR0_POSTSCALER_7 6
+TMR0_POSTSCALER_8 7
+TMR0_POSTSCALER_9 8
+TMR0_POSTSCALER_10 9
+TMR0_POSTSCALER_11 10
+TMR0_POSTSCALER_12 11
+TMR0_POSTSCALER_13 12
+TMR0_POSTSCALER_14 13
+TMR0_POSTSCALER_15 14
+TMR0_POSTSCALER_16 15
+]
+"584
+[e E6741 . `uc
+TMR0_CLOCKSOURCE_T0CLIPPS 0
+TMR0_CLOCKSOURCE_T0CLIPPS_INVERTED 1
+TMR0_CLOCKSOURCE_FOSC_DIV_4 2
+TMR0_CLOCKSOURCE_HFINTOSC 3
+TMR0_CLOCKSOURCE_LFINTOSC 4
+TMR0_CLOCKSOURCE_SOSC 6
+TMR0_CLOCKSOURCE_CLC1 7
+]
+"585
+[e E6750 . `uc
+TMR0_SYNCRONIZATION_NONE 1
+TMR0_SYNCRONIZATION_FOSC_DIV_4 0
+]
+"586
+[e E6754 . `uc
+TMR0_PRESCALER_1 0
+TMR0_PRESCALER_2 1
+TMR0_PRESCALER_4 2
+TMR0_PRESCALER_8 3
+TMR0_PRESCALER_16 4
+TMR0_PRESCALER_32 5
+TMR0_PRESCALER_64 6
+TMR0_PRESCALER_128 7
+TMR0_PRESCALER_256 8
+TMR0_PRESCALER_512 9
+TMR0_PRESCALER_1024 10
+TMR0_PRESCALER_2048 11
+TMR0_PRESCALER_4096 12
+TMR0_PRESCALER_8192 13
+TMR0_PRESCALER_16384 14
+TMR0_PRESCALER_32768 15
+]
+"632
+[e E6778 . `uc
+TMR2_POSTSCALER_1 0
+TMR2_POSTSCALER_2 1
+TMR2_POSTSCALER_3 2
+TMR2_POSTSCALER_4 3
+TMR2_POSTSCALER_5 4
+TMR2_POSTSCALER_6 5
+TMR2_POSTSCALER_7 6
+TMR2_POSTSCALER_8 7
+TMR2_POSTSCALER_9 8
+TMR2_POSTSCALER_10 9
+TMR2_POSTSCALER_11 10
+TMR2_POSTSCALER_12 11
+TMR2_POSTSCALER_13 12
+TMR2_POSTSCALER_14 13
+TMR2_POSTSCALER_15 14
+TMR2_POSTSCALER_16 15
+]
+"633
+[e E6772 . `uc
+TMR2_PRESCALER_1 0
+TMR2_PRESCALER_4 1
+TMR2_PRESCALER_16 2
+TMR2_PRESCALER_64 3
+]
+"173 /home/lumkani/Desktop/Keychain/Keychain_Project/Lumkani-Keychain_Firmware/pinmap.h
+[e E6358 . `uc
+ADCON0_CHS_FVR 63
+ADCON0_CHS_DAC1 62
+ADCON0_CHS_TEMP 61
+ADCON0_CHS_VSS 60
+ADCON0_CHS_ANC7 23
+ADCON0_CHS_ANC6 22
+ADCON0_CHS_ANC5 21
+ADCON0_CHS_ANC4 20
+ADCON0_CHS_ANC3 19
+ADCON0_CHS_ANC2 18
+ADCON0_CHS_ANC1 17
+ADCON0_CHS_ANC0 16
+ADCON0_CHS_ANB7 15
+ADCON0_CHS_ANB6 14
+ADCON0_CHS_ANB5 13
+ADCON0_CHS_ANB4 12
+ADCON0_CHS_ANA5 5
+ADCON0_CHS_ANA4 4
+ADCON0_CHS_ANA2 2
+ADCON0_CHS_ANA1 1
+ADCON0_CHS_ANA0 0
+]
+"64 /home/lumkani/Desktop/Keychain/Keychain_Project/Lumkani-Keychain_Firmware/hardware.h
+[e E6406 . `uc
+CLK_SOURCE_HFINTOSC_2PLL 0
+CLK_SOURCE_EXTOSC_4PLL 1
+CLK_SOURCE_SOSC 3
+CLK_SOURCE_LFINTOSC 4
+CLK_SOURCE_HFINTOSC 6
+CLK_SOURCE_EXTOSC 7
+]
+[e E6414 . `uc
+CLK_DIV_1 0
+CLK_DIV_2 1
+CLK_DIV_4 2
+CLK_DIV_8 3
+CLK_DIV_16 4
+CLK_DIV_32 5
+CLK_DIV_64 6
+CLK_DIV_128 7
+CLK_DIV_256 8
+CLK_DIV_512 9
+]
+"18 /home/lumkani/Desktop/Keychain/Keychain_Project/Lumkani-Keychain_Firmware/display.c
+[e E52 . `uc
+LOW 0
+HIGH 1
+FALSE 0
+TRUE 1
+]
+"29
+[e E24 . `uc
+RING1 1
+RING2 2
+RING3 3
+RING4 4
+LED_ALL 5
+]
+"43
+[e E6446 . `uc
+DIGITAL_OUTPUT_PUSH_PULL 0
+DIGITAL_OUTPUT_OPEN_DRAIN 1
+DIGITAL_INPUT_NO_PULL 2
+DIGITAL_INPUT_PULL_UP 3
+DIGITAL_INPUT_OPEN_DRAIN 4
+ANALOG_INPUT 5
+]
+"10 /opt/microchip/xc8/v2.00/pic/sources/c99/common/sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"15 /opt/microchip/xc8/v2.00/pic/sources/c99/common/Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"4 /opt/microchip/xc8/v2.00/pic/sources/c99/common/Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 /opt/microchip/xc8/v2.00/pic/sources/c99/pic/__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"38 /home/lumkani/Desktop/Keychain/Keychain_Project/Lumkani-Keychain_Firmware/display.c
+[v _initialize initialize `(v  1 s 1 initialize ]
+"65
+[v _led_on led_on `(v  1 s 1 led_on ]
+"72
+[v _led_off led_off `(v  1 s 1 led_off ]
+"79
+[v _led_flash led_flash `(v  1 s 1 led_flash ]
+"88
+[v __switch_led _switch_led `(v  1 s 1 _switch_led ]
+"126
+[v _pattern_scroll_out pattern_scroll_out `(v  1 s 1 pattern_scroll_out ]
+"158
+[v _pattern_scroll_in pattern_scroll_in `(v  1 s 1 pattern_scroll_in ]
+"58 /home/lumkani/Desktop/Keychain/Keychain_Project/Lumkani-Keychain_Firmware/hardware.c
+[v _get_clock_source get_clock_source `(E6378  1 s 1 get_clock_source ]
+"63
+[v _wait_for_startup_clock_ready wait_for_startup_clock_ready `(v  1 s 1 wait_for_startup_clock_ready ]
+"71
+[v _switch_clock switch_clock `(E24  1 s 1 switch_clock ]
+"94
+[v _set_clock_to_pin set_clock_to_pin `(v  1 s 1 set_clock_to_pin ]
+"127
+[v _pin_mode pin_mode `(v  1 e 1 0 ]
+"176
+[v _write_pin write_pin `(v  1 e 1 0 ]
+"191
+[v _set_pin set_pin `(v  1 e 1 0 ]
+"199
+[v _reset_pin reset_pin `(v  1 e 1 0 ]
+"207
+[v _toggle_pin toggle_pin `(v  1 e 1 0 ]
+"225
+[v _read_pin read_pin `(E24  1 e 1 0 ]
+"241
+[v _output_pps output_pps `(v  1 e 1 0 ]
+"283
+[v _watchdog_initialize watchdog_initialize `(v  1 s 1 watchdog_initialize ]
+"289
+[v _watchdog_clear watchdog_clear `(v  1 s 1 watchdog_clear ]
+"294
+[v _watchdog_did_overflow watchdog_did_overflow `(E24  1 s 1 watchdog_did_overflow ]
+"392
+[v _adc_initialize adc_initialize `(v  1 s 1 adc_initialize ]
+"406
+[v _adc_enable adc_enable `T(v  1 s 1 adc_enable ]
+"411
+[v _adc_disable adc_disable `T(v  1 s 1 adc_disable ]
+"416
+[v _adc_measure_pin adc_measure_pin `(us  1 s 2 adc_measure_pin ]
+"421
+[v _adc_measure_channel adc_measure_channel `(us  1 s 2 adc_measure_channel ]
+"435
+[v __adc_channel_select _adc_channel_select `(v  1 s 1 _adc_channel_select ]
+"440
+[v __adc_get_value _adc_get_value `(us  1 s 2 _adc_get_value ]
+"578
+[v _initialize_and_enable_interrupt_timer initialize_and_enable_interrupt_timer `(v  1 s 1 initialize_and_enable_interrupt_timer ]
+"594
+[v _wait_for_register_flag_us wait_for_register_flag_us `(E24  1 s 1 wait_for_register_flag_us ]
+"613
+[v _wait_for_register_flag_ms wait_for_register_flag_ms `(E24  1 s 1 wait_for_register_flag_ms ]
+"618
+[v __enable_interrupt_timer _enable_interrupt_timer `(v  1 s 1 _enable_interrupt_timer ]
+"623
+[v __disable_interrupt_timer _disable_interrupt_timer `(v  1 s 1 _disable_interrupt_timer ]
+"642
+[v __enable_timer2 _enable_timer2 `(v  1 s 1 _enable_timer2 ]
+"647
+[v __disable_timer2 _disable_timer2 `(v  1 s 1 _disable_timer2 ]
+"29 /home/lumkani/Desktop/Keychain/Keychain_Project/Lumkani-Keychain_Firmware/main.c
+[v _main main `(v  1 e 1 0 ]
+[s S44 . 7 `*.39VEuc 1 port 2 0 `uc 1 pin_num 1 2 `uc 1 input_pps 1 3 `*.39VEuc 1 output_pps 2 4 `DCE6619 1 adc_channel 1 6 ]
+"173 /home/lumkani/Desktop/Keychain/Keychain_Project/Lumkani-Keychain_Firmware/pinmap.h
+[v _led1 led1 `DCS44  1 e 7 0 ]
+"175
+[v _led3 led3 `DCS44  1 e 7 0 ]
+"177
+[v _led5 led5 `DCS44  1 e 7 0 ]
+"179
+[v _led7 led7 `DCS44  1 e 7 0 ]
+"180
+[v _led8 led8 `DCS44  1 e 7 0 ]
+"183
+[v _led11 led11 `DCS44  1 e 7 0 ]
+"185
+[v _led13 led13 `DCS44  1 e 7 0 ]
+"187
+[v _led15 led15 `DCS44  1 e 7 0 ]
+"190
+[v _led18 led18 `DCS44  1 e 7 0 ]
+[s S666 . 1 `uc 1 C 1 0 :1:0 
+`uc 1 DC 1 0 :1:1 
+`uc 1 Z 1 0 :1:2 
+`uc 1 nPD 1 0 :1:3 
+`uc 1 nTO 1 0 :1:4 
+]
+"131 /opt/microchip/xc8/v2.00/pic/include/pic16lf18326.h
+[s S672 . 1 `uc 1 CARRY 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 ZERO 1 0 :1:2 
+]
+[u S676 . 1 `S666 1 . 1 0 `S672 1 . 1 0 ]
+[v _STATUSbits STATUSbits `VES676  1 e 1 @3 ]
+"903
+[v _TMR0H TMR0H `VEuc  1 e 1 @22 ]
+[s S926 . 1 `uc 1 T0OUTPS 1 0 :4:0 
+`uc 1 T016BIT 1 0 :1:4 
+`uc 1 T0OUT 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+`uc 1 T0EN 1 0 :1:7 
+]
+"1077
+[s S932 . 1 `uc 1 T0OUTPS0 1 0 :1:0 
+`uc 1 T0OUTPS1 1 0 :1:1 
+`uc 1 T0OUTPS2 1 0 :1:2 
+`uc 1 T0OUTPS3 1 0 :1:3 
+]
+[u S937 . 1 `S926 1 . 1 0 `S932 1 . 1 0 ]
+[v _T0CON0bits T0CON0bits `VES937  1 e 1 @23 ]
+[s S972 . 1 `uc 1 T0CKPS 1 0 :4:0 
+`uc 1 T0ASYNC 1 0 :1:4 
+`uc 1 T0CS 1 0 :3:5 
+]
+"1144
+[s S976 . 1 `uc 1 T0CKPS0 1 0 :1:0 
+`uc 1 T0CKPS1 1 0 :1:1 
+`uc 1 T0CKPS2 1 0 :1:2 
+`uc 1 T0CKPS3 1 0 :1:3 
+`uc 1 . 1 0 :1:4 
+`uc 1 T0CS0 1 0 :1:5 
+`uc 1 T0CS1 1 0 :1:6 
+`uc 1 T0CS2 1 0 :1:7 
+]
+[u S985 . 1 `S972 1 . 1 0 `S976 1 . 1 0 ]
+[v _T0CON1bits T0CON1bits `VES985  1 e 1 @24 ]
+"1388
+[v _TMR2 TMR2 `VEuc  1 e 1 @29 ]
+"1408
+[v _PR2 PR2 `VEuc  1 e 1 @30 ]
+[s S1039 . 1 `uc 1 T2CKPS 1 0 :2:0 
+`uc 1 TMR2ON 1 0 :1:2 
+`uc 1 T2OUTPS 1 0 :4:3 
+]
+"1449
+[s S1043 . 1 `uc 1 T2CKPS0 1 0 :1:0 
+`uc 1 T2CKPS1 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 T2OUTPS0 1 0 :1:3 
+`uc 1 T2OUTPS1 1 0 :1:4 
+`uc 1 T2OUTPS2 1 0 :1:5 
+`uc 1 T2OUTPS3 1 0 :1:6 
+]
+[u S1051 . 1 `S1039 1 . 1 0 `S1043 1 . 1 0 ]
+[v _T2CONbits T2CONbits `VES1051  1 e 1 @31 ]
+[s S622 . 1 `uc 1 SWDTEN 1 0 :1:0 
+`uc 1 WDTPS 1 0 :5:1 
+]
+"1894
+[s S625 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 WDTPS0 1 0 :1:1 
+`uc 1 WDTPS1 1 0 :1:2 
+`uc 1 WDTPS2 1 0 :1:3 
+`uc 1 WDTPS3 1 0 :1:4 
+`uc 1 WDTPS4 1 0 :1:5 
+]
+[u S632 . 1 `S622 1 . 1 0 `S625 1 . 1 0 ]
+[v _WDTCONbits WDTCONbits `VES632  1 e 1 @151 ]
+"1934
+[v _ADRES ADRES `VEus  1 e 2 @155 ]
+[s S834 . 1 `uc 1 ADON 1 0 :1:0 
+`uc 1 GO_nDONE 1 0 :1:1 
+`uc 1 CHS 1 0 :6:2 
+]
+"2007
+[s S838 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 ADGO 1 0 :1:1 
+`uc 1 CHS0 1 0 :1:2 
+`uc 1 CHS1 1 0 :1:3 
+`uc 1 CHS2 1 0 :1:4 
+`uc 1 CHS3 1 0 :1:5 
+`uc 1 CHS4 1 0 :1:6 
+`uc 1 CHS5 1 0 :1:7 
+]
+[s S847 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO 1 0 :1:1 
+]
+[u S850 . 1 `S834 1 . 1 0 `S838 1 . 1 0 `S847 1 . 1 0 ]
+[v _ADCON0bits ADCON0bits `VES850  1 e 1 @157 ]
+[s S786 . 1 `uc 1 ADPREF 1 0 :2:0 
+`uc 1 ADNREF 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 ADCS 1 0 :3:4 
+`uc 1 ADFM 1 0 :1:7 
+]
+"2089
+[s S792 . 1 `uc 1 ADPREF0 1 0 :1:0 
+`uc 1 ADPREF1 1 0 :1:1 
+`uc 1 . 1 0 :2:2 
+`uc 1 ADCS0 1 0 :1:4 
+`uc 1 ADCS1 1 0 :1:5 
+`uc 1 ADCS2 1 0 :1:6 
+]
+[u S799 . 1 `S786 1 . 1 0 `S792 1 . 1 0 ]
+[v _ADCON1bits ADCON1bits `VES799  1 e 1 @158 ]
+"2139
+[v _ADACT ADACT `VEuc  1 e 1 @159 ]
+[s S733 . 1 `uc 1 ADFVR 1 0 :2:0 
+`uc 1 CDAFVR 1 0 :2:2 
+`uc 1 TSRNG 1 0 :1:4 
+`uc 1 TSEN 1 0 :1:5 
+`uc 1 FVRRDY 1 0 :1:6 
+`uc 1 FVREN 1 0 :1:7 
+]
+"2616
+[s S740 . 1 `uc 1 ADFVR0 1 0 :1:0 
+`uc 1 ADFVR1 1 0 :1:1 
+`uc 1 CDAFVR0 1 0 :1:2 
+`uc 1 CDAFVR1 1 0 :1:3 
+]
+[u S745 . 1 `S733 1 . 1 0 `S740 1 . 1 0 ]
+[v _FVRCONbits FVRCONbits `VES745  1 e 1 @279 ]
+[s S496 . 1 `uc 1 CLKRDIV 1 0 :3:0 
+`uc 1 CLKRDC 1 0 :2:3 
+`uc 1 . 1 0 :2:5 
+`uc 1 CLKREN 1 0 :1:7 
+]
+"7255
+[s S501 . 1 `uc 1 CLKRDIV0 1 0 :1:0 
+`uc 1 CLKRDIV1 1 0 :1:1 
+`uc 1 CLKRDIV2 1 0 :1:2 
+`uc 1 CLKRDC0 1 0 :1:3 
+`uc 1 CLKRDC1 1 0 :1:4 
+]
+[u S507 . 1 `S496 1 . 1 0 `S501 1 . 1 0 ]
+[v _CLKRCONbits CLKRCONbits `VES507  1 e 1 @922 ]
+[s S479 . 1 `uc 1 IOCMD 1 0 :1:0 
+`uc 1 CLKRMD 1 0 :1:1 
+`uc 1 NVMMD 1 0 :1:2 
+`uc 1 . 1 0 :3:3 
+`uc 1 FVRMD 1 0 :1:6 
+`uc 1 SYSCMD 1 0 :1:7 
+]
+"11569
+[u S486 . 1 `S479 1 . 1 0 ]
+[v _PMD0bits PMD0bits `VES486  1 e 1 @2321 ]
+[s S432 . 1 `uc 1 NDIV 1 0 :4:0 
+`uc 1 NOSC 1 0 :3:4 
+]
+"11926
+[s S435 . 1 `uc 1 NDIV0 1 0 :1:0 
+`uc 1 NDIV1 1 0 :1:1 
+`uc 1 NDIV2 1 0 :1:2 
+`uc 1 NDIV3 1 0 :1:3 
+`uc 1 NOSC0 1 0 :1:4 
+`uc 1 NOSC1 1 0 :1:5 
+`uc 1 NOSC2 1 0 :1:6 
+]
+[u S443 . 1 `S432 1 . 1 0 `S435 1 . 1 0 ]
+[v _OSCCON1bits OSCCON1bits `VES443  1 e 1 @2329 ]
+[s S389 . 1 `uc 1 CDIV 1 0 :4:0 
+`uc 1 COSC 1 0 :3:4 
+]
+"11996
+[s S392 . 1 `uc 1 CDIV0 1 0 :1:0 
+`uc 1 CDIV1 1 0 :1:1 
+`uc 1 CDIV2 1 0 :1:2 
+`uc 1 CDIV3 1 0 :1:3 
+`uc 1 COSC0 1 0 :1:4 
+`uc 1 COSC1 1 0 :1:5 
+`uc 1 COSC2 1 0 :1:6 
+]
+[u S400 . 1 `S389 1 . 1 0 `S392 1 . 1 0 ]
+[v _OSCCON2bits OSCCON2bits `VES400  1 e 1 @2330 ]
+[s S415 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 NOSCR 1 0 :1:3 
+`uc 1 ORDY 1 0 :1:4 
+`uc 1 SOSCBE 1 0 :1:5 
+`uc 1 SOSCPWR 1 0 :1:6 
+`uc 1 CSWHOLD 1 0 :1:7 
+]
+"12061
+[u S422 . 1 `S415 1 . 1 0 ]
+[v _OSCCON3bits OSCCON3bits `VES422  1 e 1 @2331 ]
+"18 /home/lumkani/Desktop/Keychain/Keychain_Project/Lumkani-Keychain_Firmware/display.c
+[v __gb_display_initialized _gb_display_initialized `E52  1 s 1 _gb_display_initialized ]
+[s S122 . 12 `*.37(v 1 initialize 2 0 `*.37(v 1 pattern_scroll_out 2 2 `*.37(v 1 pattern_scroll_in 2 4 `*.37(v 1 led_on 2 6 `*.37(v 1 led_off 2 8 `*.37(v 1 led_flash 2 10 ]
+"29
+[v _display display `DCS122  1 e 12 0 ]
+[s S81 . 8 `*.37(E6696 1 get_clock_source 2 0 `*.37(v 1 wait_for_startup_clock_ready 2 2 `*.37(E6667 1 switch_clock 2 4 `*.37(v 1 set_clock_to_pin 2 6 ]
+"51 /home/lumkani/Desktop/Keychain/Keychain_Project/Lumkani-Keychain_Firmware/hardware.c
+[v _oscillator oscillator `DCS81  1 e 8 0 ]
+[s S530 . 16 `*.37(v 1 mode 2 0 `*.37(v 1 write 2 2 `*.37(v 1 set 2 4 `*.37(v 1 reset 2 6 `*.37(v 1 toggle 2 8 `*.37(uc 1 read 2 10 `*.37(v 1 input_pps 2 12 `*.37(v 1 output_pps 2 14 ]
+"118
+[v _gpio gpio `DCS530  1 e 16 0 ]
+[s S102 . 6 `*.37(v 1 initialize 2 0 `*.37(v 1 clear 2 2 `*.37(E6667 1 did_overflow 2 4 ]
+"277
+[v _watchdog watchdog `DCS102  1 e 6 0 ]
+"29 /home/lumkani/Desktop/Keychain/Keychain_Project/Lumkani-Keychain_Firmware/main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"41
+} 0
+"283 /home/lumkani/Desktop/Keychain/Keychain_Project/Lumkani-Keychain_Firmware/hardware.c
+[v _watchdog_initialize watchdog_initialize `(v  1 s 1 watchdog_initialize ]
+{
+"287
+} 0
+"289
+[v _watchdog_clear watchdog_clear `(v  1 s 1 watchdog_clear ]
+{
+"292
+} 0
+"63
+[v _wait_for_startup_clock_ready wait_for_startup_clock_ready `(v  1 s 1 wait_for_startup_clock_ready ]
+{
+"69
+} 0
+"126 /home/lumkani/Desktop/Keychain/Keychain_Project/Lumkani-Keychain_Firmware/display.c
+[v _pattern_scroll_out pattern_scroll_out `(v  1 s 1 pattern_scroll_out ]
+{
+"128
+[v pattern_scroll_out@i i `uc  1 a 1 5 ]
+"126
+[v pattern_scroll_out@count count `uc  1 p 1 3 ]
+"156
+} 0
+"158
+[v _pattern_scroll_in pattern_scroll_in `(v  1 s 1 pattern_scroll_in ]
+{
+"160
+[v pattern_scroll_in@i i `uc  1 a 1 5 ]
+"158
+[v pattern_scroll_in@count count `uc  1 p 1 3 ]
+"188
+} 0
+"72
+[v _led_off led_off `(v  1 s 1 led_off ]
+{
+"74
+[v led_off@state state `E52  1 a 1 2 ]
+"72
+[v led_off@led led `DCE24  1 p 1 0 ]
+"77
+} 0
+"38
+[v _initialize initialize `(v  1 s 1 initialize ]
+{
+"63
+} 0
+"127 /home/lumkani/Desktop/Keychain/Keychain_Project/Lumkani-Keychain_Firmware/hardware.c
+[v _pin_mode pin_mode `(v  1 e 1 0 ]
+{
+"129
+[v pin_mode@base_pointer base_pointer `*.39VEuc  1 a 2 7 ]
+"130
+[v pin_mode@pin_bit_position pin_bit_position `uc  1 a 1 9 ]
+[s S44 . 7 `*.39VEuc 1 port 2 0 `uc 1 pin_num 1 2 `uc 1 input_pps 1 3 `*.39VEuc 1 output_pps 2 4 `DCE6619 1 adc_channel 1 6 ]
+"127
+[v pin_mode@pin pin `*.25DCS44  1 p 2 0 ]
+[v pin_mode@mode mode `E6418  1 p 1 2 ]
+"174
+} 0
+"88 /home/lumkani/Desktop/Keychain/Keychain_Project/Lumkani-Keychain_Firmware/display.c
+[v __switch_led _switch_led `(v  1 s 1 _switch_led ]
+{
+[v __switch_led@led led `DCE24  1 a 1 wreg ]
+[v __switch_led@led led `DCE24  1 a 1 wreg ]
+[v __switch_led@state state `E52  1 p 1 10 ]
+[v __switch_led@led led `DCE24  1 a 1 13 ]
+"124
+} 0
+"176 /home/lumkani/Desktop/Keychain/Keychain_Project/Lumkani-Keychain_Firmware/hardware.c
+[v _write_pin write_pin `(v  1 e 1 0 ]
+{
+"178
+[v write_pin@base_pointer base_pointer `*.39VEuc  1 a 2 7 ]
+"179
+[v write_pin@pin_bit_position pin_bit_position `uc  1 a 1 9 ]
+[s S44 . 7 `*.39VEuc 1 port 2 0 `uc 1 pin_num 1 2 `uc 1 input_pps 1 3 `*.39VEuc 1 output_pps 2 4 `DCE6619 1 adc_channel 1 6 ]
+"176
+[v write_pin@pin pin `*.25DCS44  1 p 2 0 ]
+[v write_pin@state state `E24  1 p 1 2 ]
+"189
+} 0
