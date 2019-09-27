@@ -1,7 +1,7 @@
 // <editor-fold defaultstate="collapsed" desc="Description">
 /** @file main.c
  *
- * @brief Firmware for the Lumkani Gateway v3 Supervisor
+ * @brief Firmware for the Lumkani Keychain
  *
  * @par
  * Author: Lumkani Team
